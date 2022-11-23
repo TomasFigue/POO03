@@ -6,7 +6,7 @@ package p61.unidad02_02.vista;
 
 import java.time.LocalDate;
 import p61.unidad02_02.modelo.Estudiante;
-import p61.unidad02_02.modelo.Jugador;
+import p61.unidad03_02.modelo.Jugador;
 import p61.unidad02_02.servicio.EstudianteServicio;
 import p61.unidad02_02.servicio.JugadorServicio;
 

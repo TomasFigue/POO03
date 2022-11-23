@@ -6,7 +6,7 @@ package p61.unidad02_02.servicio;
 
 import java.util.ArrayList;
 import java.util.List;
-import p61.unidad02_02.modelo.Jugador;
+import p61.unidad03_02.modelo.Jugador;
 
 /**
  *

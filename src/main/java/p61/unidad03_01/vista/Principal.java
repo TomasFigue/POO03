@@ -44,20 +44,21 @@ public class Principal {
 
          */
         
-        var ventana1=new Ventana0301a("Ecuador");
+       
         /*
         var ventana2=new Ventana0301a("Qtar");
         var ventana3=new Ventana0301a("Paises Bajos");
         var ventana4=new Ventana0301a("Senegal");
         */
-        ventana1.iniciarComponentes();
-        ventana1.setVisible(true);
+        
         /*
         ventana2.setVisible(true);
         ventana3.setVisible(true);
         ventana4.setVisible(true);
         */
-
+        
+        var ventana3=new Ventana0301c();
+        
     }
 
 }

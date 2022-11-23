@@ -21,16 +21,13 @@ public class Ventana0301a extends JFrame {
     private List<JPanel> jPanelList;
 
     public Ventana0301a(String title) throws HeadlessException {
-
         super(title);
         this.setSize(800, 600);
         this.setLocation(200, 100);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.jPanelList = new ArrayList<>();
         this.setLayout(new FlowLayout());
-
     }
-
     public void iniciarComponentes() {
         var jPanelrojo = new JPanel();
         jPanelrojo.setBackground(Color.RED);
@@ -48,6 +45,7 @@ public class Ventana0301a extends JFrame {
         this.jPanelList.add(jPanelverde);
         this.jPanelList.add(jPanelGris);
         this.jPanelList.add(jPanelRosa);
+        
         for(var jPanel:this.jPanelList)
         this.getContentPane().add(jPanel);
     }
