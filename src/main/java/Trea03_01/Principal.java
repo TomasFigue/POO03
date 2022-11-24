@@ -12,5 +12,8 @@ public class Principal {
 
     public static void main(String[] args) {
         var ventana1 = new Ventana1();
+         var ventana2 = new Ventana2();
+          var ventana3 = new Ventana3();
+           var ventana4 = new Ventana4();
     }
 }
