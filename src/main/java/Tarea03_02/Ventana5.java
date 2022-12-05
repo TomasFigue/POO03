@@ -37,8 +37,8 @@ public class Ventana5 extends JFrame {
     public Ventana5() throws HeadlessException {
 
         this.setTitle("Ventana5");
-        this.setSize(1000, 300);
-        this.setLocation(200, 100);
+        this.setSize(1300, 300);
+        this.setLocation(600, 100);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.iniciarPanels();
         this.iniciarJTextFields();
@@ -149,10 +149,7 @@ public class Ventana5 extends JFrame {
         
         var listaCampus = new String[1];
         listaCampus[0] = "El vecino";
-        
-        var calificacion = new String[2];
-        calificacion[0] = " SI ";
-        calificacion[1] = " NO ";
+   
         
         var listaCarreras = new String[3];
         listaCarreras[0] = "Arquitectura";
@@ -170,18 +167,19 @@ public class Ventana5 extends JFrame {
         var periodo = new String[3];
         periodo[0] = " 2022=-2022 ";
  
-        this.jComboBoxList.add(new JComboBox(new DefaultComboBoxModel(calificacion)));
+        
+        this.jComboBoxList.add(new JComboBox(new DefaultComboBoxModel(listaSedes)));
         this.jComboBoxList.add(new JComboBox(new DefaultComboBoxModel(listaCampus)));
         this.jComboBoxList.add(new JComboBox(new DefaultComboBoxModel(listaCarreras)));
         this.jComboBoxList.add(new JComboBox(new DefaultComboBoxModel(codigo)));
         this.jComboBoxList.add(new JComboBox(new DefaultComboBoxModel(listaModalidad)));
         this.jComboBoxList.add(new JComboBox(new DefaultComboBoxModel(periodo)));
-        this.jPanelList.get(6).add(this.jComboBoxList.get(0));
-        this.jPanelList.get(7).add(this.jComboBoxList.get(1));
-        this.jPanelList.get(8).add(this.jComboBoxList.get(2));
         this.jPanelList.get(9).add(this.jComboBoxList.get(0));
         this.jPanelList.get(10).add(this.jComboBoxList.get(1));
         this.jPanelList.get(11).add(this.jComboBoxList.get(2));
+        this.jPanelList.get(13).add(this.jComboBoxList.get(3));
+        this.jPanelList.get(14).add(this.jComboBoxList.get(4));
+        this.jPanelList.get(15).add(this.jComboBoxList.get(5));
 
     }
 
